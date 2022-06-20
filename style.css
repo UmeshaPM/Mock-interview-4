@@ -1,0 +1,62 @@
+.button{
+    margin-right: 30px;
+    background: #00a5ec 0 0 no-repeat padding-box;
+    border: none;
+    padding: 12px 52px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.text{
+    font-family: 'Raleway', sans-serif;
+}
+.box1
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: translateX(10px,20px);
+    transition-duration: 2s;
+}
+.box1:hover{
+    width: 200px;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.box3{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    border: 2px solid black;
+}
+/* meadia */
+@media only screen and (max-width:600px){
+   .box3{
+    background-color: green;
+   }
+}
+@media only screen and (min-width:768px){
+    .box3{
+        background-color: yellow;
+    }
+}
+.box4{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+animation: umesh 2s linear infinite;
+
+}
+@keyframes umesh{
+    100%{
+        transform: rotate(360deg);
+    }
+}
